@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Udon Thani International Horticultural Expo 2026 multilingual student website">
+  <title>Udon Thani International Horticultural Expo 2026</title>
+  <link rel="icon" href="assets/brand-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Sans+Thai:wght@400;500;700;900&family=Prompt:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Udon Thani Expo 2026">
+        <img src="assets/brand-logo.svg" alt="Nong Dae Bloom Udon Thani Expo 2026 logo">
+      </a>
+
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Toggle menu">
+      <label class="nav-toggle-button" for="nav-toggle" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <div class="nav-panel">
+        <a href="#about" data-i18n="navAbout">เกี่ยวกับงาน</a>
+        <a href="#highlights" data-i18n="navHighlights">ไฮไลต์</a>
+        <a href="#site" data-i18n="navSite">พื้นที่จัดงาน</a>
+        <a href="#visit" data-i18n="navVisit">วางแผนเข้าชม</a>
+        <a href="#sources" data-i18n="navSources">แหล่งข้อมูล</a>
+      </div>
+
+      <div class="language-switch" aria-label="Language switcher">
+        <button class="lang-btn active" type="button" data-lang="th">ไทย</button>
+        <button class="lang-btn" type="button" data-lang="en">English</button>
+        <button class="lang-btn" type="button" data-lang="zh">中文</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <picture>
+        <img class="hero-bg" src="assets/banner-03.webp" alt="Aerial view of Udon Thani Expo 2026 garden site">
+      </picture>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="heroEyebrow">มหกรรมพืชสวนโลก อุดรธานี 2569</p>
+        <h1 id="hero-title" data-i18n="heroTitle">Udon Thani International Horticultural Expo 2026</h1>
+        <p class="hero-lead" data-i18n="heroLead">ความหลากหลายแห่งสรรพชีวิต สายสัมพันธ์ของผู้คน สายน้ำ และพืชพรรณ สู่การดำรงชีวิตที่ยั่งยืน</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#visit" data-i18n="heroCta">ดูข้อมูลการเข้าชม</a>
+          <a class="secondary-action" href="#site" data-i18n="heroCta2">สำรวจพื้นที่งาน</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-facts" aria-label="Key facts">
+      <article class="fact-card countdown-card">
+        <div class="fact-topline">
+          <span class="fact-kicker" data-i18n="factDateLabel">ระยะเวลาจัดงาน</span>
+          <span class="fact-badge" data-i18n="countdownStatusUpcoming">นับถอยหลัง</span>
+        </div>
+        <strong class="fact-title" data-i18n="factDate">1 พฤศจิกายน 2569 - 14 มีนาคม 2570</strong>
+        <div class="countdown-grid" aria-live="polite">
+          <div>
+            <strong id="count-days">000</strong>
+            <span data-i18n="countdownDays">วัน</span>
+          </div>
+          <div>
+            <strong id="count-hours">00</strong>
+            <span data-i18n="countdownHours">ชั่วโมง</span>
+          </div>
+          <div>
+            <strong id="count-minutes">00</strong>
+            <span data-i18n="countdownMinutes">นาที</span>
+          </div>
+          <div>
+            <strong id="count-seconds">00</strong>
+            <span data-i18n="countdownSeconds">วินาที</span>
+          </div>
+        </div>
+      </article>
+      <a class="fact-card map-fact" href="https://www.google.com/maps/search/?api=1&query=17.4587795648429,102.79612788910042" target="_blank" rel="noopener" aria-label="Open Nong Dae wetland location in Google Maps">
+        <div class="fact-topline">
+          <span class="fact-kicker" data-i18n="factPlaceLabel">สถานที่</span>
+          <span class="fact-badge map-badge" data-i18n="mapBadge">เปิดแผนที่</span>
+        </div>
+        <strong class="fact-title" data-i18n="factPlace">พื้นที่ชุ่มน้ำหนองแด ต.กุดสระ อ.เมือง จ.อุดรธานี</strong>
+        <span class="fact-hint" data-i18n="mapHint">กดเพื่อเปิดตำแหน่งใน Google Maps</span>
+      </a>
+      <article class="fact-card area-fact">
+        <div class="fact-topline">
+          <span class="fact-kicker" data-i18n="factAreaLabel">พื้นที่โครงการ</span>
+          <span class="fact-mark">164.8</span>
+        </div>
+        <strong class="fact-title" data-i18n="factArea">164.8 เฮกตาร์</strong>
+        <span class="fact-hint" data-i18n="areaHint">พื้นที่ขนาดใหญ่สำหรับนิทรรศการ สวน และกิจกรรมเรียนรู้</span>
+      </article>
+      <article class="fact-card theme-fact">
+        <div class="fact-topline">
+          <span class="fact-kicker" data-i18n="factThemeLabel">แนวคิดหลัก</span>
+          <span class="fact-mark">DOL</span>
+        </div>
+        <strong class="fact-title" data-i18n="factTheme">Diversity of Life</strong>
+        <span class="fact-hint" data-i18n="themeHint">ผู้คน สายน้ำ และพืชพรรณ อยู่ร่วมกันอย่างยั่งยืน</span>
+        <div class="theme-points" aria-label="Theme keywords">
+          <span data-i18n="themePoint1">ความหลากหลาย</span>
+          <span data-i18n="themePoint2">พื้นที่ชุ่มน้ำ</span>
+          <span data-i18n="themePoint3">อนาคตยั่งยืน</span>
+        </div>
+      </article>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="aboutEyebrow">About the Expo</p>
+        <h2 data-i18n="aboutTitle">งานพืชสวนโลกบนพื้นที่ชุ่มน้ำที่เชื่อมผู้คน น้ำ และพืชพรรณ</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p data-i18n="aboutBody1">โครงการมหกรรมพืชสวนโลก อุดรธานี 2569 จัดขึ้นเพื่อสื่อสารภาพเมืองอุดรธานีในฐานะพื้นที่แห่งความอุดมสมบูรณ์ วัฒนธรรมอีสาน และความร่วมมือของอนุภูมิภาคลุ่มแม่น้ำโขง</p>
+          <p data-i18n="aboutBody2">เว็บไซต์นี้ออกแบบให้ผู้เข้าชมจาก 3 ภาษา ได้แก่ ไทย อังกฤษ และจีน สามารถสลับภาษาเพื่ออ่านข้อมูลสำคัญของงานได้ทันที ทั้งวันที่จัดงาน สถานที่ แนวคิด และไฮไลต์พื้นที่จัดแสดง</p>
+          <div class="about-tags" aria-label="About keywords">
+            <span data-i18n="aboutTag1">พื้นที่ชุ่มน้ำ</span>
+            <span data-i18n="aboutTag2">วัฒนธรรมอีสาน</span>
+            <span data-i18n="aboutTag3">พืชสวนยั่งยืน</span>
+          </div>
+        </div>
+        <div class="mission-list" aria-label="Expo mission">
+          <div>
+            <span>01</span>
+            <strong data-i18n="mission1Title">ธรรมชาติและความยั่งยืน</strong>
+            <p data-i18n="mission1Body">นำเสนอความสัมพันธ์ของระบบนิเวศ พื้นที่ชุ่มน้ำ และการใช้ทรัพยากรอย่างสมดุล</p>
+          </div>
+          <div>
+            <span>02</span>
+            <strong data-i18n="mission2Title">วัฒนธรรมอีสาน</strong>
+            <p data-i18n="mission2Body">สะท้อนภูมิปัญญาท้องถิ่น วิถีชีวิต และเอกลักษณ์ของจังหวัดอุดรธานี</p>
+          </div>
+          <div>
+            <span>03</span>
+            <strong data-i18n="mission3Title">นวัตกรรมเกษตร</strong>
+            <p data-i18n="mission3Body">เปิดพื้นที่ให้เห็นเทคโนโลยีด้านพืชสวน เกษตรสมัยใหม่ และการเรียนรู้สำหรับทุกวัย</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="highlights" class="section highlights-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="highlightEyebrow">Expo Highlights</p>
+        <h2 data-i18n="highlightTitle">ไฮไลต์ที่ผู้เข้าชมไม่ควรพลาด</h2>
+      </div>
+      <div class="highlight-grid">
+        <article class="feature-card">
+          <span class="feature-icon">6</span>
+          <h3 data-i18n="feature1Title">โซนนิทรรศการ</h3>
+          <p data-i18n="feature1Body">พื้นที่เรียนรู้และจัดแสดงที่เชื่อมธรรมชาติ พืชพรรณ และความยั่งยืนเข้าด้วยกัน</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">9</span>
+          <h3 data-i18n="feature2Title">แลนด์มาร์ก</h3>
+          <p data-i18n="feature2Body">จุดถ่ายภาพและอาคารสำคัญที่ออกแบบจากแรงบันดาลใจของท้องถิ่นอุดรธานี</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">8</span>
+          <h3 data-i18n="feature3Title">กิจกรรมสร้างประสบการณ์</h3>
+          <p data-i18n="feature3Body">กิจกรรมสำหรับครอบครัว นักท่องเที่ยว นักเรียน และผู้สนใจพืชสวนจากนานาชาติ</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">1</span>
+          <h3 data-i18n="feature4Title">พื้นที่ชุ่มน้ำแห่งแรก</h3>
+          <p data-i18n="feature4Body">งานพืชสวนโลกที่นำเสนอศักยภาพของพื้นที่ชุ่มน้ำเป็นหัวใจของประสบการณ์</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="site" class="section site-section">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="siteEyebrow">Expo Site</p>
+        <h2 data-i18n="siteTitle">สำรวจพื้นที่จัดงานและอาคารสำคัญ</h2>
+      </div>
+      <div class="site-layout">
+        <figure class="map-panel official-map-panel" aria-label="Udon Thani Expo 2026 site map">
+          <img
+            class="zoomable-image map-image"
+            id="expo-map-image"
+            src="assets/expo-map-th.png"
+            data-map-th="assets/expo-map-th.png"
+            data-map-en="assets/expo-map-en.png"
+            data-map-zh="assets/expo-map-zh.png"
+            sizes="(max-width: 760px) 92vw, 1220px"
+            alt="Official Udon Thani Expo 2026 annotated site map"
+          >
+        </figure>
+        <div class="place-list">
+          <article>
+            <img class="zoomable-image" src="assets/point1.webp" alt="Visitor Center">
+            <div>
+              <h3 data-i18n="place1Title">Visitor Center</h3>
+              <p data-i18n="place1Body">ศูนย์ต้อนรับและให้ข้อมูลสำหรับผู้เข้าชม พร้อมจุดรอรถรับส่งภายในงาน</p>
+            </div>
+          </article>
+          <article>
+            <img class="zoomable-image" src="assets/point3.webp" alt="Exhibition Building">
+            <div>
+              <h3 data-i18n="place2Title">Exhibition Building</h3>
+              <p data-i18n="place2Body">อาคารนิทรรศการที่ได้รับแรงบันดาลใจจาก “ไซ” เครื่องมือประมงพื้นบ้าน</p>
+            </div>
+          </article>
+          <article>
+            <img class="zoomable-image" src="assets/point4.webp" alt="Esan Village">
+            <div>
+              <h3 data-i18n="place3Title">Esan Village</h3>
+              <p data-i18n="place3Body">พื้นที่จำลองสถาปัตยกรรมอีสานและเวทีแสดงศิลปวัฒนธรรมท้องถิ่น</p>
+            </div>
+          </article>
+          <article>
+            <img class="zoomable-image" src="assets/point6.webp" alt="Greenhouse">
+            <div>
+              <h3 data-i18n="place4Title">Greenhouse</h3>
+              <p data-i18n="place4Body">เรือนกระจกสำหรับจัดแสดงพันธุ์พืชในบรรยากาศร่วมสมัย</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="visit" class="section visit-section">
+      <div class="visit-banner">
+        <img class="zoomable-image" src="assets/banner-03.webp" alt="Udon Thani Expo garden and architecture">
+        <div>
+          <p class="eyebrow" data-i18n="visitEyebrow">Plan Your Visit</p>
+          <h2 data-i18n="visitTitle">เตรียมตัวเข้าชมงานมหกรรมพืชสวนโลก อุดรธานี 2569</h2>
+          <p data-i18n="visitBody">งานจัดระหว่างฤดูหนาวถึงต้นฤดูร้อนของไทย เหมาะสำหรับการท่องเที่ยวแบบครอบครัว การเรียนรู้นอกห้องเรียน และการสัมผัสวัฒนธรรมท้องถิ่นของจังหวัดอุดรธานี</p>
+        </div>
+      </div>
+      <div class="timeline-grid">
+        <article>
+          <span data-i18n="timeline1Label">ก่อนเดินทาง</span>
+          <h3 data-i18n="timeline1Title">ตรวจสอบกำหนดการ</h3>
+          <p data-i18n="timeline1Body">ติดตามประกาศจากเว็บไซต์ทางการหรือเพจ Facebook เพื่ออัปเดตข่าว กิจกรรม และรายละเอียดบัตรเข้าชม</p>
+        </article>
+        <article>
+          <span data-i18n="timeline2Label">ระหว่างเข้าชม</span>
+          <h3 data-i18n="timeline2Title">เริ่มที่ Visitor Center</h3>
+          <p data-i18n="timeline2Body">รับข้อมูล แผนที่ และวางเส้นทางการชมโซนนิทรรศการ แลนด์มาร์ก และกิจกรรมต่าง ๆ</p>
+        </article>
+        <article>
+          <span data-i18n="timeline3Label">หลังเข้าชม</span>
+          <h3 data-i18n="timeline3Title">ต่อยอดการเรียนรู้</h3>
+          <p data-i18n="timeline3Body">บันทึกประสบการณ์ ถ่ายภาพ และนำความรู้ด้านพืชสวน ความยั่งยืน และวัฒนธรรมไปแบ่งปันต่อ</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="sources" class="site-footer">
+    <div>
+      <img src="assets/brand-logo-light.svg" alt="Nong Dae Bloom Udon Thani Expo 2026 logo">
+      <p data-i18n="footerText">เว็บไซต์นักศึกษาสำหรับงานออกแบบและพัฒนาเว็บ 3 ภาษา อ้างอิงข้อมูลจากเว็บไซต์ทางการของโครงการ</p>
+    </div>
+    <nav aria-label="Reference links">
+      <a href="https://udonthaniexpo2026.com/" target="_blank" rel="noopener" data-i18n="sourceOfficial">เว็บไซต์ทางการ</a>
+      <a href="https://udonthaniexpo2026.com/exposite" target="_blank" rel="noopener" data-i18n="sourceMap">ข้อมูลพื้นที่จัดงาน</a>
+      <a href="https://www.facebook.com/profile.php?id=100083286131946" target="_blank" rel="noopener" data-i18n="sourceFacebook">เพจ Facebook</a>
+    </nav>
+  </footer>
+
+  <div class="image-lightbox" id="image-lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <button class="lightbox-close" type="button" aria-label="Close image preview">×</button>
+    <figure class="lightbox-panel">
+      <div class="lightbox-image-wrap">
+        <img id="lightbox-image" src="" alt="">
+      </div>
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
