@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="3140" viewBox="0 0 2200 3140">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L9,3 z" fill="#D5A642"/>
+  </marker>
+  <filter id="shadow">
+    <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0c3326" flood-opacity="0.12"/>
+  </filter>
+</defs>
+<rect x="0" y="0" width="2200" height="3140" rx="0" fill="#F4F6F0" stroke="#F4F6F0" />
+<rect x="60" y="60" width="2080" height="330" rx="22" fill="#FFFDF7" stroke="#E2E6DF" filter="url(#shadow)"/>
+<rect x="100" y="102" width="180" height="34" rx="17" fill="#0D4A34" stroke="#0D4A34" />
+<text x="190" y="125" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">UX/UI PROTOTYPE</text>
+<text x="100" y="180" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="48" font-weight="800" fill="#0D4A34">โครงร่าง UX/UI เว็บไซต์ 3 ภาษา</text>
+<text x="100" y="242" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="34" font-weight="800" fill="#0D4A34">Udon Thani International Horticultural Expo 2026</text>
+<text x="100" y="310" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="23" font-weight="500" fill="#506057">Low-fidelity prototype สำหรับส่งขั้นออกแบบ UX/UI ก่อนพัฒนาเว็บไซต์จริง</text>
+<text x="1120" y="132" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="25" font-weight="700" fill="#506057">ใช้ส่งงานขั้นออกแบบก่อนพัฒนาเว็บไซต์จริง</text>
+<text x="1120" y="176" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="23" font-weight="500" fill="#506057">เน้นโครงสร้าง, การสลับภาษา, flow และ prototype state</text>
+<text x="1120" y="215" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="23" font-weight="500" fill="#506057">ยังไม่ใช้รูปจริงในงานออกแบบ</text>
+<rect x="1120" y="286" width="94" height="38" rx="8" fill="#0D4A34" stroke="#B8C4BD" />
+<text x="1167" y="311" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">ไทย</text>
+<rect x="1234" y="286" width="110" height="38" rx="8" fill="#fff" stroke="#B8C4BD" />
+<text x="1289" y="311" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#0D4A34" text-anchor="middle">English</text>
+<rect x="1364" y="286" width="92" height="38" rx="8" fill="#fff" stroke="#B8C4BD" />
+<text x="1410" y="311" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#0D4A34" text-anchor="middle">中文</text>
+<rect x="60" y="470" width="1320" height="1570" rx="22" fill="#FFFFFF" stroke="#E0E5DF" filter="url(#shadow)"/>
+<text x="100" y="530" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="34" font-weight="800" fill="#0D4A34">01 Desktop Wireframe / Homepage</text>
+<text x="100" y="575" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="400" fill="#64736D">หน้าจอ desktop แสดงโครงสร้างก่อนลงสีและภาพจริง</text>
+<rect x="100" y="635" width="1240" height="72" rx="8" fill="#FFFFFF" stroke="#B8C4BD" />
+<rect x="124" y="651" width="165" height="40" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="206.5" y="678" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">LOGO</text>
+<text x="392" y="680" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="16" font-weight="700" fill="#35463E">เกี่ยวกับงาน</text>
+<text x="520" y="680" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="16" font-weight="700" fill="#35463E">ไฮไลต์</text>
+<text x="648" y="680" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="16" font-weight="700" fill="#35463E">พื้นที่จัดงาน</text>
+<text x="776" y="680" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="16" font-weight="700" fill="#35463E">วางแผนเข้าชม</text>
+<text x="904" y="680" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="16" font-weight="700" fill="#35463E">แหล่งข้อมูล</text>
+<rect x="1072" y="652" width="72" height="38" rx="8" fill="#0D4A34" stroke="#B8C4BD" />
+<text x="1108" y="677" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">ไทย</text>
+<rect x="1156" y="652" width="62" height="38" rx="8" fill="#fff" stroke="#B8C4BD" />
+<text x="1187" y="677" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#0D4A34" text-anchor="middle">EN</text>
+<rect x="1230" y="652" width="62" height="38" rx="8" fill="#fff" stroke="#B8C4BD" />
+<text x="1261" y="677" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#0D4A34" text-anchor="middle">中</text>
+<rect x="100" y="750" width="1240" height="320" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="720" y="917" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">HERO IMAGE PLACEHOLDER</text>
+<text x="145" y="820" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="36" font-weight="800" fill="#0D4A34">Hero title + value proposition</text>
+<text x="145" y="880" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="22" font-weight="400" fill="#506057">ข้อความแนะนำงาน + แนวคิด Diversity of Life</text>
+<rect x="145" y="945" width="180" height="54" rx="8" fill="#D5A642" stroke="#D5A642" />
+<text x="235" y="980" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="17" font-weight="700" fill="#0D4A34" text-anchor="middle">Primary CTA</text>
+<rect x="345" y="945" width="170" height="54" rx="8" fill="#fff" stroke="#B8C4BD" />
+<text x="430" y="980" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="17" font-weight="700" fill="#0D4A34" text-anchor="middle">Secondary CTA</text>
+<rect x="100" y="1110" width="285" height="130" rx="10" fill="#EAF2EE" stroke="#C8D0CB" />
+<text x="122" y="1148" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">Date + Countdown</text>
+<rect x="122" y="1182" width="205" height="34" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="224.5" y="1206" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">VALUE</text>
+<rect x="410" y="1110" width="285" height="130" rx="10" fill="#E8F4F7" stroke="#C8D0CB" />
+<text x="432" y="1148" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">Location + Map</text>
+<rect x="432" y="1182" width="205" height="34" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="534.5" y="1206" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">VALUE</text>
+<rect x="720" y="1110" width="285" height="130" rx="10" fill="#ECF5E7" stroke="#C8D0CB" />
+<text x="742" y="1148" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">Area</text>
+<rect x="742" y="1182" width="205" height="34" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="844.5" y="1206" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">VALUE</text>
+<rect x="1030" y="1110" width="285" height="130" rx="10" fill="#F5ECE6" stroke="#C8D0CB" />
+<text x="1052" y="1148" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">Theme</text>
+<rect x="1052" y="1182" width="205" height="34" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="1154.5" y="1206" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">VALUE</text>
+<text x="100" y="1325" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="32" font-weight="800" fill="#0D4A34">About Section</text>
+<rect x="100" y="1385" width="500" height="220" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="350" y="1502" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">TEXT CONTENT</text>
+<rect x="690" y="1385" width="520" height="58" rx="8" fill="#fff" stroke="#B8C4BD" />
+<rect x="710" y="1397" width="46" height="34" rx="17" fill="#1C8A57" stroke="#1C8A57" />
+<text x="733" y="1420" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">01</text>
+<text x="775" y="1420" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">Mission 01</text>
+<rect x="690" y="1459" width="520" height="58" rx="8" fill="#fff" stroke="#B8C4BD" />
+<rect x="710" y="1471" width="46" height="34" rx="17" fill="#1C8A57" stroke="#1C8A57" />
+<text x="733" y="1494" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">02</text>
+<text x="775" y="1494" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">Mission 02</text>
+<rect x="690" y="1533" width="520" height="58" rx="8" fill="#fff" stroke="#B8C4BD" />
+<rect x="710" y="1545" width="46" height="34" rx="17" fill="#1C8A57" stroke="#1C8A57" />
+<text x="733" y="1568" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">03</text>
+<text x="775" y="1568" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">Mission 03</text>
+<text x="100" y="1680" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="32" font-weight="800" fill="#0D4A34">Expo Site Section</text>
+<rect x="100" y="1740" width="760" height="250" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="480" y="1872" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">MAP PLACEHOLDER</text>
+<rect x="905" y="1740" width="360" height="68" rx="8" fill="#fff" stroke="#B8C4BD" />
+<rect x="925" y="1752" width="54" height="44" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="952" y="1781" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">IMG</text>
+<text x="1002" y="1782" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="19" font-weight="700" fill="#0D4A34">Visitor Center</text>
+<rect x="905" y="1826" width="360" height="68" rx="8" fill="#fff" stroke="#B8C4BD" />
+<rect x="925" y="1838" width="54" height="44" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="952" y="1867" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">IMG</text>
+<text x="1002" y="1868" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="19" font-weight="700" fill="#0D4A34">Exhibition Building</text>
+<rect x="905" y="1912" width="360" height="68" rx="8" fill="#fff" stroke="#B8C4BD" />
+<rect x="925" y="1924" width="54" height="44" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="952" y="1953" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">IMG</text>
+<text x="1002" y="1954" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="19" font-weight="700" fill="#0D4A34">Isan Village</text>
+<text x="100" y="2010" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="19" font-weight="500" fill="#506057">Annotation: ข้อมูลสำคัญอยู่ด้านบน, แผนที่เป็น section หลัก และ CTA พาผู้ใช้ไปยังจุดที่ต้องการ</text>
+<rect x="1450" y="470" width="570" height="1570" rx="22" fill="#FFFFFF" stroke="#E0E5DF" filter="url(#shadow)"/>
+<text x="1495" y="530" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="34" font-weight="800" fill="#0D4A34">02 Mobile Wireframe</text>
+<text x="1495" y="575" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="400" fill="#64736D">จัดให้อยู่กลางกรอบและอ่านง่ายบนมือถือ</text>
+<rect x="1554" y="665" width="360" height="1190" rx="34" fill="#111B16" stroke="#111B16" />
+<rect x="1569" y="685" width="330" height="1150" rx="28" fill="#fff" stroke="#fff" />
+<rect x="1590" y="715" width="290" height="58" rx="8" fill="#fff" stroke="#B8C4BD" />
+<rect x="1605" y="728" width="105" height="32" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="1657.5" y="751" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">LOGO</text>
+<rect x="1840" y="735" width="24" height="20" rx="4" fill="#CBD3CE" stroke="#CBD3CE" />
+<rect x="1590" y="805" width="290" height="250" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="1614" y="900" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="28" font-weight="800" fill="#0D4A34">Hero title</text>
+<text x="1614" y="940" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="500" fill="#506057">Intro copy</text>
+<rect x="1614" y="995" width="74" height="38" rx="8" fill="#0D4A34" stroke="#B8C4BD" />
+<text x="1651" y="1020" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">ไทย</text>
+<rect x="1700" y="995" width="70" height="38" rx="8" fill="#fff" stroke="#B8C4BD" />
+<text x="1735" y="1020" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#0D4A34" text-anchor="middle">EN</text>
+<rect x="1782" y="995" width="74" height="38" rx="8" fill="#fff" stroke="#B8C4BD" />
+<text x="1819" y="1020" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#0D4A34" text-anchor="middle">中文</text>
+<rect x="1590" y="1095" width="290" height="130" rx="10" fill="#EAF2EE" stroke="#C8D0CB" />
+<text x="1618" y="1138" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="19" font-weight="700" fill="#0D4A34">Countdown realtime</text>
+<rect x="1618" y="1170" width="230" height="34" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="1733" y="1194" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">D / H / M / S</text>
+<text x="1590" y="1296" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="30" font-weight="800" fill="#0D4A34">About</text>
+<rect x="1590" y="1346" width="290" height="126" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="1735" y="1416" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">TEXT</text>
+<rect x="1590" y="1502" width="290" height="150" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="1735" y="1584" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">MAP</text>
+<rect x="1590" y="1682" width="290" height="76" rx="10" fill="#FFFFFF" stroke="#B8C4BD" />
+<rect x="1610" y="1700" width="58" height="40" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="1639" y="1727" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">IMG</text>
+<text x="1688" y="1728" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="18" font-weight="700" fill="#0D4A34">Place card</text>
+<rect x="60" y="2150" width="1320" height="500" rx="22" fill="#FFFFFF" stroke="#E0E5DF" filter="url(#shadow)"/>
+<text x="100" y="2210" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="34" font-weight="800" fill="#0D4A34">03 Language Switch Prototype States</text>
+<text x="100" y="2255" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="400" fill="#64736D">เมื่อกดภาษา ระบบเปลี่ยนข้อความและรูปแผนที่ตามภาษาที่เลือก</text>
+<rect x="100" y="2330" width="350" height="240" rx="12" fill="#fff" stroke="#B8C4BD" />
+<text x="124" y="2375" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="24" font-weight="800" fill="#0D4A34">State A: Thai</text>
+<rect x="124" y="2405" width="94" height="38" rx="8" fill="#0D4A34" stroke="#B8C4BD" />
+<text x="171" y="2430" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">ไทย</text>
+<rect x="124" y="2462" width="302" height="80" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="275" y="2509" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">TH MAP</text>
+<rect x="510" y="2330" width="350" height="240" rx="12" fill="#fff" stroke="#B8C4BD" />
+<text x="534" y="2375" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="24" font-weight="800" fill="#0D4A34">State B: English</text>
+<rect x="534" y="2405" width="110" height="38" rx="8" fill="#0D4A34" stroke="#B8C4BD" />
+<text x="589" y="2430" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">English</text>
+<rect x="534" y="2462" width="302" height="80" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="685" y="2509" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">EN MAP</text>
+<rect x="920" y="2330" width="350" height="240" rx="12" fill="#fff" stroke="#B8C4BD" />
+<text x="944" y="2375" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="24" font-weight="800" fill="#0D4A34">State C: Chinese</text>
+<rect x="944" y="2405" width="94" height="38" rx="8" fill="#0D4A34" stroke="#B8C4BD" />
+<text x="991" y="2430" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">中文</text>
+<rect x="944" y="2462" width="302" height="80" rx="10" fill="#EEF1EE" stroke="#AEBBB3" stroke-dasharray="10 8"/>
+<text x="1095" y="2509" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#69766F" text-anchor="middle">ZH MAP</text>
+<line x1="450" y1="2468" x2="510" y2="2468" stroke="#D5A642" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="860" y1="2468" x2="920" y2="2468" stroke="#D5A642" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="60" y="2760" width="1920" height="260" rx="22" fill="#FFFFFF" stroke="#E0E5DF" filter="url(#shadow)"/>
+<text x="100" y="2820" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="34" font-weight="800" fill="#0D4A34">04 User Flow / Wireflow</text>
+<rect x="100" y="2880" width="250" height="88" rx="10" fill="#F7F8F5" stroke="#B8C4BD" />
+<rect x="120" y="2900" width="44" height="34" rx="17" fill="#1C8A57" stroke="#1C8A57" />
+<text x="142" y="2923" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="182" y="2928" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">เข้าสู่หน้าแรก</text>
+<line x1="350" y1="2924" x2="420" y2="2924" stroke="#D5A642" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="450" y="2880" width="250" height="88" rx="10" fill="#F7F8F5" stroke="#B8C4BD" />
+<rect x="470" y="2900" width="44" height="34" rx="17" fill="#1C8A57" stroke="#1C8A57" />
+<text x="492" y="2923" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="532" y="2928" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">เลือกภาษา</text>
+<line x1="700" y1="2924" x2="770" y2="2924" stroke="#D5A642" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="800" y="2880" width="250" height="88" rx="10" fill="#F7F8F5" stroke="#B8C4BD" />
+<rect x="820" y="2900" width="44" height="34" rx="17" fill="#1C8A57" stroke="#1C8A57" />
+<text x="842" y="2923" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="882" y="2928" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">อ่านข้อมูลสำคัญ</text>
+<line x1="1050" y1="2924" x2="1120" y2="2924" stroke="#D5A642" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1150" y="2880" width="250" height="88" rx="10" fill="#F7F8F5" stroke="#B8C4BD" />
+<rect x="1170" y="2900" width="44" height="34" rx="17" fill="#1C8A57" stroke="#1C8A57" />
+<text x="1192" y="2923" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="1232" y="2928" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">เปิดแผนที่</text>
+<line x1="1400" y1="2924" x2="1470" y2="2924" stroke="#D5A642" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1500" y="2880" width="250" height="88" rx="10" fill="#F7F8F5" stroke="#B8C4BD" />
+<rect x="1520" y="2900" width="44" height="34" rx="17" fill="#1C8A57" stroke="#1C8A57" />
+<text x="1542" y="2923" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<text x="1582" y="2928" font-family="Kanit, Noto Sans Thai, Prompt, Arial, sans-serif" font-size="20" font-weight="700" fill="#0D4A34">วางแผนเข้าชม</text>
+</svg>
