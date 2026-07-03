@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Nong Dae Bloom mark</title>
+  <desc id="desc">A custom lotus and water logo mark for the student expo website.</desc>
+  <rect width="128" height="128" rx="28" fill="#0d4a34"/>
+  <path d="M64 21c12 16 17 28 17 40 0 14-7 25-17 33-10-8-17-19-17-33 0-12 5-24 17-40Z" fill="#f2c766"/>
+  <path d="M36 47c17 4 28 11 34 22 7 12 5 25-1 36-13-3-24-11-31-23-6-11-7-23-2-35Z" fill="#55b878"/>
+  <path d="M92 47c5 12 4 24-2 35-7 12-18 20-31 23-6-11-8-24-1-36 6-11 17-18 34-22Z" fill="#0d7691"/>
+  <path d="M23 80c18-1 32 3 41 13 9 9 12 21 11 34-14 1-27-3-37-13-9-9-14-20-15-34Z" fill="#ffffff" opacity=".92"/>
+  <path d="M105 80c-1 14-6 25-15 34-10 10-23 14-37 13-1-13 2-25 11-34 9-10 23-14 41-13Z" fill="#ffffff" opacity=".92"/>
+  <path d="M35 84c18 14 40 14 58 0" fill="none" stroke="#f2c766" stroke-width="6" stroke-linecap="round"/>
+</svg>
