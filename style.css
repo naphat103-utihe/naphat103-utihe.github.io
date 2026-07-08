@@ -918,6 +918,101 @@ button {
   font-weight: 900;
 }
 
+.student-section {
+  max-width: none;
+  padding-top: 86px;
+  padding-bottom: 86px;
+  background: var(--mist);
+  background-image: var(--udon-pattern);
+  background-size: 520px 340px;
+}
+
+.student-card {
+  display: grid;
+  grid-template-columns: auto minmax(280px, 1fr) minmax(280px, 0.82fr);
+  gap: clamp(20px, 4vw, 42px);
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: clamp(24px, 4vw, 42px);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 48px rgba(12, 51, 38, 0.06);
+  backdrop-filter: blur(8px);
+}
+
+.student-mark {
+  display: grid;
+  place-items: center;
+  width: clamp(80px, 10vw, 100px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--forest);
+  box-shadow: 0 8px 20px rgba(13, 74, 52, 0.15);
+}
+
+.student-mark span {
+  color: var(--sun);
+  font-family: var(--font-ui);
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.student-copy h2 {
+  margin: 0;
+  color: var(--forest);
+  font-family: var(--font-heading);
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.student-copy p:last-child {
+  max-width: 620px;
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.6;
+}
+
+.student-details {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+}
+
+.student-details div {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 16px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.student-details div:last-child {
+  border-bottom: none;
+}
+
+.student-details dt {
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.student-details dd {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
 .site-footer {
   display: grid;
   grid-template-columns: minmax(280px, 1fr) auto;
@@ -1022,8 +1117,13 @@ button {
 
   .about-grid,
   .site-layout,
-  .visit-banner {
+  .visit-banner,
+  .student-card {
     grid-template-columns: 1fr;
+  }
+
+  .student-mark {
+    width: 104px;
   }
 }
 
@@ -1134,6 +1234,19 @@ button {
 
   .place-list div {
     padding: 0 18px 18px;
+  }
+
+  .student-section {
+    padding: 56px 14px;
+  }
+
+  .student-card {
+    padding: 22px;
+  }
+
+  .student-details div {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 
   .site-footer {
